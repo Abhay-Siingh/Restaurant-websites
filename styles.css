@@ -1,0 +1,555 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat&display=swap");
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.menu {
+  background-color: #fefbea;
+  color: #000000;
+  width: 200px;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 98vh; /* Set the height to 100% of the viewport height */
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu > p{
+  text-align: center;
+}
+.menu ul {
+  list-style-type: none;
+  width: 100%;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center menu links vertically */
+  flex-grow: 1;
+}
+
+.menu li {
+  text-align: center;
+  flex-grow: 0.09;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+
+  width: 80%;
+  display: block;
+  text-align: center;
+  padding: 20px 20px; /* Add padding to create a button-like appearance */
+  background-color: #000000; /* Background color for the button */
+  border: 2px solid #fff; /* White border for the button */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s, color 0.3s;
+}
+.menu a:hover {
+  background-color: #fff; /* Change background color on hover */
+  color: #333; /* Change text color on hover */
+}
+
+.content {
+  flex-grow: 1;
+  /* padding: 20px; */
+  margin-left: 220px;
+}
+
+.content h1 {
+  font-size: 24px;
+}
+
+.content p {
+  font-size: 16px;
+}
+
+/* Add or modify styles as needed */
+
+.menu-section .about-section,
+.contact-section .reservation-container .home-section {
+  display: none; /*Initially hide all sections */
+  padding: 20px;
+}
+
+.menu-section {
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.about-section {
+  background-color: #f3f3f3;
+  height: 95.5vh;
+  
+}
+
+.contact-section {
+  background-color: #f3f3f3;
+  width: 100%;
+  height: 92.5vh; 
+
+}
+
+/* Add or modify styles for the Home section */
+.home-section {
+  background-color: #f0f0f0;
+  /* padding: 20px; */
+  text-align: center;
+  margin-left: 20px;
+}
+
+.home-section h1 {
+  font-size: 36px;
+  color: #ffffff;
+}
+
+.home-section p {
+  font-size: 18px;
+  color: #eeeeee;
+}
+
+.menu-content {
+  /* max-width: 1200px; */
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  background-image: url("/images/menu-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-color: #f0f0f0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  min-height: 100vh;
+}
+.menu-content>h1{
+  font-family: "Kaushan Script", cursive;
+  font-size: 40px;
+}
+.menu-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.menu-item {
+  flex: 0 1 calc(33.3333% - 20px); /* Three cards in a row with a gap of 20px */
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.2s;
+}
+
+.menu-item:hover {
+  transform: scale(1.02);
+}
+
+.menu-item img {
+  width: 100%;
+  height: 200px; /* Set a fixed height for all card images */
+  object-fit: cover;
+}
+
+.menu-item h2 {
+  font-size: 1.5rem;
+  margin: 10px;
+}
+
+.menu-item p {
+  margin: 10px;
+}
+
+/* Add these styles to your CSS file */
+
+.filter-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.filter-button {
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+}
+
+.filter-button:hover {
+  background-color: #4ae124;
+}
+
+.filter-button.active {
+  background-color: #2c99e2;
+}
+
+/* Add more styles as needed to match your design */
+
+.menu-content > h1 {
+  color: white;
+  text-size-adjust: 20px;
+}
+
+/* Styles for the hero image section */
+.hero-image {
+  position: relative;
+  background-image: url("/images/hero.jpg"); /* Replace with your image URL */
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Set the height to 100% of the viewport height */
+  width: 100%; /* Set the width to 100% of the parent container */
+  color: #fff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.hero-content h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+  font-family: "Kaushan Script", cursive;
+}
+
+.hero-content p {
+  font-size: 18px;
+}
+
+.logo {
+  text-align: center;
+  margin-top: 20px; /* Adjust the margin as needed */
+}
+
+.logo img {
+  max-width: 100%; /* Make sure the logo fits within the container */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Reservation form container styles */
+.reservation-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Set a minimum height to cover the entire viewport */
+  background-image: url("/images/reserve-bg.jpg");
+  background-size: cover;
+  background-color: #f0f0f0; /* Optional: Add a background color for visual separation */
+}
+
+/* Reservation form styles specific to .reservation-form */
+.reservation-form {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 400px;
+  width: 100%;
+  margin: auto; /* Center the form horizontally */
+  text-align: left;
+  display: flex;
+  flex-direction: column; /* Stack form elements vertically */
+  gap: 10px; /* Add spacing between form elements */
+
+  /* Center form elements horizontally and vertically */
+  align-items: center;
+  justify-content: center;
+}
+
+.reservation-form h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: #333;
+  font-family: "Kaushan Script", cursive;
+  font-weight: bold;
+}
+
+/* Use flexbox to create a two-column layout for labels and inputs */
+.reservation-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.reservation-form label {
+  font-size: 16px;
+  color: #333;
+  /* Align labels to the right and give them a fixed width */
+  text-align: right;
+  width: 120px;
+}
+
+.reservation-form input[type="text"],
+.reservation-form input[type="email"],
+.reservation-form input[type="tel"],
+.reservation-form input[type="date"],
+.reservation-form input[type="time"],
+.reservation-form input[type="number"],
+.reservation-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.reservation-form textarea {
+  resize: vertical;
+}
+
+.reservation-form button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  /* Center the button within the form */
+  margin: 0 auto;
+  display: block;
+  width: fit-content;
+}
+
+.reservation-form button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Add or modify styles as needed */
+.contact-content {
+  display: flex;
+  align-items: center;
+  padding: 50px;
+  background-color: #f3f3f3; /* Background color for the contact section */
+  /* flex-direction: row; */
+  height: 89.2vh;
+  gap: 10px;
+  background-image: url(/images/Contact\ Us.jpg);
+  background-size: cover;
+}
+
+.contact-card {
+  background-color: #fff; /* Background color for the contact card */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  /* padding: 20px; */
+  /* flex: 0 1 calc(50% - 20px); Two cards in a row with a gap of 20px */
+  flex: 0.5;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.contact-info {
+  font-size: 18px;
+  text-align: center;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+.contact-info >h2{
+  font-family: "Kaushan Script", cursive;
+  font-size: 40px;
+}
+
+.google-map {
+  /* flex: 0 1 calc(50% - 20px); Two cards in a row with a gap of 20px
+   */
+  flex: 0.5;
+  height: 50vh; /* Adjust the height as needed */
+  background-color: #f0f0f0; /* Background color for the map */
+  background-color: #fff; /* Background color for the contact card */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.google-map>iframe{
+  border-radius: 20px;
+}
+
+/* Add or modify styles as needed */
+.about-section {
+  background-color: #f3f3f3; /* Background color for the about section */
+  padding: 20px;
+  text-align: center;
+  height: 95.7vh;
+  background-image: url(/images/About\ Us.jpg);
+}
+
+.about-content {
+  max-width: 100%; /* Adjust the maximum width as needed */
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 93vh;
+  width: 60%;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 24px;
+}
+
+.about-content h1 {
+  font-size: 36px;
+  color: #ffffff; /* Text color for the heading */
+  font-family:"Kaushan Script", cursive;
+}
+
+.about-content p {
+  font-size: 18px;
+  color: #ffffff; /* Text color for the paragraphs */
+  margin: 20px 0;
+}
+
+
+/* Add or modify styles as needed */
+.gallery-section {
+  background-color: #f0f0f0; /* Background color for the gallery section */
+  padding: 20px;
+  text-align: center;
+  background-image: url(/images/gallery-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.gallery-section>h1{
+color: white;
+font-family: "Kaushan Script", cursive;
+font-size: 45px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  grid-gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.2s;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.05);
+}
+
+
+
+/* Style for the newsletter form */
+
+
+.newsletter-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(/images/gallery-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.newsletter-container {
+  background-color: #fff; /* Background color for the container */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+.newsletter-container h1 {
+  font-size: 24px;
+  color: #333; /* Heading color */
+  margin-bottom: 10px;
+}
+
+#p-news {
+  font-size: 16px;
+  color: #555; /* Text color */
+  margin-bottom: 20px;
+}
+
+.newsletter-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.newsletter-form input[type="email"] {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc; /* Input border color */
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.newsletter-form button {
+  background-color: red; /* Button background color */
+  color: #fff; /* Button text color */
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: "Montserrat",cursive;
+  font-weight: bold;
+
+}
+
+.newsletter-form button:hover {
+  background-color: green; /* Button background color on hover */
+}
+
+#confirmation{
+  font-family: "Montserrat",cursive;
+  font-weight: bold;
+  font-size: 20px;
+  color: #000000;
+}

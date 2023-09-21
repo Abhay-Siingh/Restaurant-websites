@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="menu-section">
+      <div class="menu-content">
+        <h1>Our Menu</h1>
+        <div class="filter-buttons">
+          <button class="filter-button" data-cuisine="all">All</button>
+          <button class="filter-button" data-cuisine="starter">Starter</button>
+          <button class="filter-button" data-cuisine="main course">
+            Main Course
+          </button>
+          <button class="filter-button" data-cuisine="breads">Breads</button>
+          <button class="filter-button" data-cuisine="rice">Rice</button>
+          <button class="filter-button" data-cuisine="drink">Drink</button>
+          <button class="filter-button" data-cuisine="dessert">Dessert</button>
+          <!-- Add more cuisine categories as needed -->
+        </div>
+        <div class="menu-items" id="menu-items">
+          <!-- Menu items will be loaded dynamically here -->
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

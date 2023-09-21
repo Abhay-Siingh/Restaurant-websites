@@ -1,0 +1,18 @@
+Garlic Naan: Indian Bread: $3.75: Breads 
+Paneer Tikka: Indian cheese cooked in tomato and onion gravy sauce.: $13.95: Main Course 
+Mango Lassi: Yogurt Drink: $4.50: Drink 
+Chicken Biryani: Rice cooked with chicken and spices.: $16.95: Rice 
+Kheer: Basmati rice cooked in milk and nuts.: $2.95: Dessert 
+Butter Naan: Indian Bread: $3.75: Breads 
+Lassi: Yogurt Drink: $4.50: Drink 
+Butter Chicken: Buttery tomato gravy with chicken.: $14.3: Main Course
+Fried Rice: Indo chinese rice with cabbage,beans and carrot.: $18.4: Rice
+Ghee Rice: Fresh cooked rice with ghee.: $10.1: Rice
+Gobi Manchurian: Cauliflower that's batter fried and coocked in special sauces.: $9.7: Starter
+Gulab Jamun: Deep-fried milk balls cooked in syrup.: $3.95: Dessert
+Kerala Poratta: Fluffy Kerala speciality bread.: $3.7: Breads
+Palak Paneer: Indian cheese cooked in spinach with ginger and garlic.: $12.95: Main Course
+Paneer Manchurian: Paneer that's batter fried and coocked in special sauces.: $14:35: Starter
+Ras Malai: Organic cottage cheese dumplings soaked in creamy milk syrup, scented with cardamom and saffron.: $5.8: Dessert
+Sheekh Kebab: Minced meat roasted over a grill.: $10: Starter
+Tender Coconut: Coconut Shake.: $4: Drink
