@@ -404,7 +404,7 @@ body {
   padding: 20px;
   text-align: center;
   height: 95.7vh;
-  background-image: url(/images/About\ Us.jpg);
+  background-image: url(/images/About\Us.jpg);
 }
 
 .about-content {
@@ -439,7 +439,7 @@ body {
   background-color: #f0f0f0; /* Background color for the gallery section */
   padding: 20px;
   text-align: center;
-  background-image: url(/images/gallery-bg.jpg);
+  background-image: url(images/gallery-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
