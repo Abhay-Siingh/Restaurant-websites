@@ -129,7 +129,7 @@ body {
   margin: 0 auto;
   padding: 20px;
   text-align: center;
-  background-image: url("/images/menu-bg.jpg");
+  background-image: url("/Restaurant/images/menu-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: multiply;
@@ -215,7 +215,7 @@ body {
 /* Styles for the hero image section */
 .hero-image {
   position: relative;
-  background-image: url("/images/hero.jpg"); /* Replace with your image URL */
+  background-image: url("/Restaurant/images/hero.jpg"); /* Replace with your image URL */
   background-size: cover;
   background-position: center;
   height: 100vh; /* Set the height to 100% of the viewport height */
@@ -262,7 +262,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh; /* Set a minimum height to cover the entire viewport */
-  background-image: url("/images/reserve-bg.jpg");
+  background-image: url("/Restaurant/images/reserve-bg.jpg");
   background-size: cover;
   background-color: #f0f0f0; /* Optional: Add a background color for visual separation */
 }
@@ -404,7 +404,7 @@ body {
   padding: 20px;
   text-align: center;
   height: 95.7vh;
-  background-image: url(/images/About\Us.jpg);
+  background-image: url(/Restaurant/images/About\Us.jpg);
 }
 
 .about-content {
@@ -439,7 +439,7 @@ body {
   background-color: #f0f0f0; /* Background color for the gallery section */
   padding: 20px;
   text-align: center;
-  background-image: url(images/gallery-bg.jpg);
+  background-image: url(/Restaurant/images/gallery-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -487,7 +487,7 @@ font-size: 45px;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-image: url(/images/gallery-bg.jpg);
+  background-image: url(/Restaurant/images/gallery-bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
