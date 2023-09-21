@@ -354,7 +354,7 @@ body {
   /* flex-direction: row; */
   height: 89.2vh;
   gap: 10px;
-  background-image: url(/images/Contact\ Us.jpg);
+  background-image: url(Restaurant/images/Contact\ Us.jpg);
   background-size: cover;
 }
 
